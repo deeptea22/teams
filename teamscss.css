@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+}
+
+*, *:before, *:after {
+  box-sizing: right;
+}
+
+h2 {text-align: center;}
+p {text-align: center;}
+.page-header {
+  border-bottom: 1px solid #262E44;
+  margin-bottom: 80px;
+  position: fixed;
+    top: 0px;
+    height: 50px;
+    width: 70%;
+    background: #FFFFFF ;
+  
+}
+
+section {
+    padding: 15%;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.column {
+  
+  float: left;
+  width: 22%;
+  margin-bottom: 60px;
+  padding: 0 50px;
+}
+
+.column1 {
+  
+  float: left;
+  width: 37%;
+  margin-bottom: 60px;
+  padding: 0 60px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 75%;
+    display: block;
+  }
+
+  .column1 {
+    width: 75%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right,#00baef,#6ec2da);
+  margin: auto;
+  text-align: center;
+  padding: 8px;
+}
+
+.container {
+  padding: 0 16px;
+  align-items: center;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: black;
+}
+
+img {
+  border-radius: 50%;
+  margin: 16px;
+  width: 40%;
+  
+}
+
+
+
+.fa {
+  padding: 8px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  width:30px; 
+  height:34px;
+}
+
+.animate-zoom {
+  animation:animatezoom 5s
+}
+
+@keyframes animatezoom{
+  from{transform:scale(0)} to{transform:scale(1)}
+}
+
