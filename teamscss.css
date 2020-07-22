@@ -46,12 +46,12 @@ section {
 @media screen and (max-width: 650px) {
   .column {
     width: 75%;
-    display: block;
+    display: flex;
   }
 
   .column1 {
     width: 75%;
-    display: block;
+    display: flex;
   }
 }
 
